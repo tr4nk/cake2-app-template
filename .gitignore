@@ -5,7 +5,7 @@
 /logs/*
 /tmp/*
 /vendor/*
-/Plugin/*
+/plugins/*
 
 # OS generated files #
 ######################

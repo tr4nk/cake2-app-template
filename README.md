@@ -6,7 +6,7 @@ Some changes from this template:
 - Rename `app` folder to `src`.
 - Move the `webroot` and `tmp` folder out of the `src` folder.
 - Move the `Config` folder out of the `src` folder and rename it to `config`.
-- Add plugin path: `/Plugin`.
+- Add plugin path: `/plugins`.
 - Add locale path: `/resources/locales`.
 - Add view path: `/templates`.
 - Add view helper path: `/src/Helper`.

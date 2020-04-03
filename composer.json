@@ -1,5 +1,5 @@
 {
-    "name": "tr4nk/cakephp2-app-template",
+    "name": "trank/cakephp2-app-template",
     "require": {
 		"php" : ">=5.4",
         "cakephp/cakephp": "2.10.*"
@@ -18,6 +18,9 @@
         }
     },
 	"extra": {
+		"installer-paths": {
+			"plugins/{$name}/": ["type:cakephp-plugin"]
+		},
 		"heroku": {
 			"framework": "cakephp2",
 			"document-root": "webroot",
