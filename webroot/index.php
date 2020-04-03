@@ -40,7 +40,7 @@ if (!defined('ROOT')) {
  * The actual directory name for the "app".
  */
 if (!defined('APP_DIR')) {
-	define('APP_DIR', 'app');
+	define('APP_DIR', 'src');
 }
 
 /**
