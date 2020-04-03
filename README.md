@@ -5,7 +5,7 @@ This is a CakePHP 2 app template [installed with `composer`](https://book.cakeph
 Some changes from this template:
 - Move the `webroot` and `tmp` folder out of the` app` folder.
 - Move the `Config` folder out of the` app` folder and rename it to `config`.
-- Add plugin path: /Plugin.
-- Add locale path: /locale.
-- Add view path: /views.
-- Add view helper path: /Helper.
+- Add plugin path: `/Plugin`.
+- Add locale path: `/resources/locale`.
+- Add view path: `/templates`.
+- Add view helper path: `/app/Helper`.

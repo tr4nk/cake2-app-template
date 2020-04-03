@@ -51,10 +51,10 @@ Cache::config('default', array('engine' => 'File'));
  */
 App::build(
 	[
-		'Plugin'      => [ROOT . '/Plugin/'],
-		'Locale'      => [ROOT . '/locale/'],
-		'View'        => [ROOT . '/views/'],
-		'View/Helper' => [APP . '/Helper/'],
+		'Plugin'      => [ROOT . DS . 'Plugin' . DS],
+		'Locale'      => [ROOT . DS . 'resources' . DS . 'locales' . DS],
+		'View'        => [ROOT . DS . 'templates' . DS],
+		'View/Helper' => [APP . DS . 'Helper' . DS],
 	]
 );
 
