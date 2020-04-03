@@ -44,6 +44,11 @@ if (!defined('APP_DIR')) {
 }
 
 /**
+ * TMP directory path
+ */
+define('TMP', ROOT . DS . 'tmp' . DS);
+
+/**
  * The absolute path to the "cake" directory, WITHOUT a trailing DS.
  *
  * Un-comment this line to specify a fixed path to CakePHP.
