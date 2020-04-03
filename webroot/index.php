@@ -44,6 +44,13 @@ if (!defined('APP_DIR')) {
 }
 
 /**
+ * Config Directory
+ */
+if (!defined('CONFIG')) {
+	define('CONFIG', ROOT . DS . 'config' . DS);
+}
+
+/**
  * TMP directory path
  */
 define('TMP', ROOT . DS . 'tmp' . DS);
