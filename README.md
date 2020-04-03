@@ -7,3 +7,5 @@ Some changes from this template:
 - Move the `Config` folder out of the` app` folder and rename it to `config`.
 - Add plugin path: /Plugin.
 - Add locale path: /locale.
+- Add view path: /views.
+- Add view helper path: /Helper.
