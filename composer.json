@@ -1,6 +1,22 @@
 {
-    "name": "example/app",
+    "name": "tr4nk/cakephp2-app-template",
     "require": {
+		"php" : ">=5.4",
         "cakephp/cakephp": "2.10.*"
-    }
+    },
+	"suggest": {
+		"ext-openssl": "You need to install ext-openssl or ext-mcrypt to use AES-256 encryption",
+		"ext-mcrypt": "You need to install ext-openssl or ext-mcrypt to use AES-256 encryption"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "^3.7",
+		"cakephp/debug_kit" : "2.2.*"
+	},
+	"extra": {
+	  "heroku": {
+		"framework": "cakephp2",
+		"document-root": "webroot",
+		"index-document": "index.php"
+	  }
+	}
 }
