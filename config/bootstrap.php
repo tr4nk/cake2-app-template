@@ -51,7 +51,8 @@ Cache::config('default', array('engine' => 'File'));
  */
 App::build(
 	[
-		'Plugin' => [ROOT . '/Plugin/']
+		'Plugin' => [ROOT . '/Plugin/'],
+		'Locale' => [ROOT . '/locale/'],
 	]
 );
 
